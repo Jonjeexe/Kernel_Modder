@@ -24,3 +24,7 @@ chmod +x Tool
 `Output`
 ![Image](https://github.com/user-attachments/assets/023df087-fd8d-40ea-82bc-8d43473c768a)
 
+After unpack boot.img you will see.
+- `kernel (the kernel binary)`
+- `ramdisk.cpio (ramdisk)`
+- `dtb (device tree, if present)`
