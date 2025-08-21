@@ -59,3 +59,15 @@ If your new text is shorter, pad with `+` or `x` to match length.
 - New: `4.19.127-Jonjeexe` → 16 characters
 
 Perfect — same length, safe replacement.
+
+## Verify after Change
+```
+strings kernel | grep "Linux version"
+```
+
+## Repack Boot.img
+```
+./Tool repack /sdcard/boot.img
+```
+`Now you'll get new-boot.img` You have to flash that vie fastboot or recovery.
+
