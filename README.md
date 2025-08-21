@@ -49,3 +49,8 @@ sed -i 's/4.19.127-perf-g75/4.19.127-Jonjeexe/g' kernel
 For Example
 
 sed -i 's/`Origanal Kernel version`/`Custom Kernel version`/g' kernel
+
+## ⚠️ Important Notes:
+The replacement string must be the same length or shorter than the original, otherwise it can corrupt the binary.
+
+If your new text is shorter, pad with + or x to match length.
