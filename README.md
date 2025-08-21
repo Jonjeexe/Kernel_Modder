@@ -46,5 +46,6 @@ Linux version %s (%s)
 sed -i 's/4.19.127-perf-g75/4.19.127-Jonjeexe/g' kernel
 
 ```
-- For example.
+For Example
+
 sed -i 's/`Origanal Kernel version`/`Custom Kernel version`/g' kernel
