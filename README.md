@@ -43,7 +43,7 @@ Linux version %s (%s)
 ```
 ## Replace with your custom version
 ```
-sed -i 's/4.19.127-perf-g75/4.19.127-Jonjeexe/g' kernel
+sed -i 's/4.19.127-perf-g72/4.19.127-Jonjeexe/g' kernel
 
 ```
 For Example
