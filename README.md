@@ -71,3 +71,7 @@ strings kernel | grep "Linux version"
 ```
 `Now you'll get new-boot.img` You have to flash that vie fastboot or recovery.
 
+---
+
+## Q What can happen if something goes wrong?
+`Bootloop` If you corrupt the kernel binary while editing or repacking, the phone may fail to boot. but it can we fix by flashing stock boot.img
