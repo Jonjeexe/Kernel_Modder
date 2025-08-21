@@ -21,3 +21,6 @@ chmod +x Tool
 ```
 ./Tool unpack /sdcard/boot.img
 ```
+`Output`
+![Image](https://github.com/user-attachments/assets/023df087-fd8d-40ea-82bc-8d43473c768a)
+
