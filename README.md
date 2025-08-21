@@ -41,3 +41,10 @@ strings kernel | grep "Linux version"
 Linux version 4.19.127-perf-g7288046673d5 (builder@c4-xm-ota-bd022.bj) (Android (6443078 based on r383902) clang version 11.0.1 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79), LLD 11.0.1 (/buildbot/tmp/tmp6_m7QH b397f81060ce6d701042b782172ed13bee898b79)) #1 SMP PREEMPT Fri Jul 8 19:22:39 CST 2022
 Linux version %s (%s)
 ```
+## Replace with your custom version
+```
+sed -i 's/4.19.127-perf-g75/4.19.127-Jonjeexe/g' kernel
+
+```
+For example
+sed -i 's/`Origanal Kernel version`/`Custom Kernel version`/g' kernel
