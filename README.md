@@ -9,5 +9,5 @@ git clone https://github.com/Jonjeexe/Kernel_Modder && cd Kernel_Modder && bash 
 ## Now Start Modding
 Enter Workplace folder
 ```
-cd WORKPLACE
+cd WORKPLACE && ls
 ```
