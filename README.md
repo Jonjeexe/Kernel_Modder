@@ -3,4 +3,5 @@ Normally the Linux kernel version string (shown in `uname -r` or `dmesg`) is set
 
 ## Installation
 ```
-git clone https://github.com/Jonjeexe/Kernel_Modder && cd Kernel_Modder```
+git clone https://github.com/Jonjeexe/Kernel_Modder && cd Kernel_Modder
+```
