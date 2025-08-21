@@ -53,4 +53,4 @@ sed -i 's/`Origanal Kernel version`/`Custom Kernel version`/g' kernel
 ### ⚠️ Important Notes:
 The replacement string must be the same length or shorter than the original, otherwise it can corrupt the binary.
 
-If your new text is shorter, pad with + or x to match length.
+If your new text is shorter, pad with `+` or `x` to match length.
