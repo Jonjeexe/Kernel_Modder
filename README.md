@@ -11,3 +11,13 @@ Enter Workplace folder
 ```
 cd WORKPLACE && ls
 ```
+
+## Unpack boot.img
+Make sure your boot.img should be in internal storage but don't put in any folder that should be out of any folders
+and Termux has storage permission of do `termux-setup-storage`
+```
+chomd +x Tool
+```
+```
+./Tool unpack /sdcard/boot.img
+```
