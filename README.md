@@ -74,6 +74,6 @@ strings kernel | grep "Linux version"
 ---
 
 ## Q What can happen if something goes wrong?
-`Bootloop` If you corrupt the kernel binary while editing or repacking, the phone may fail to boot. but it can we fix by flashing stock boot.img
+`Bootloop` If you corrupt the kernel binary while editing or repacking, the phone may fail to boot. but it can be fix by flashing stock boot.img
 
 Your Phone won't `Hardbrick` until you flashing another phones boot.img
