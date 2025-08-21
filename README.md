@@ -54,3 +54,8 @@ sed -i 's/`Origanal Kernel version`/`Custom Kernel version`/g' kernel
 The replacement string must be the same length or shorter than the original, otherwise it can corrupt the binary.
 
 If your new text is shorter, pad with `+` or `x` to match length.
+
+- Original: `4.19.127-perf-g72` → 16 characters
+- New: `4.19.127-Jonjeexe` → 16 characters
+
+Perfect — same length, safe replacement.
