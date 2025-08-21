@@ -28,3 +28,10 @@ After unpack boot.img you will see.
 - `kernel (the kernel binary)`
 - `ramdisk.cpio (ramdisk)`
 - `dtb (device tree, if present)`
+
+Now we need `Kernel` file which is generated after unpack the boot.img
+so we will search `Kernel version` 
+## Find Kernel Version
+```
+strings kernel | grep "Linux version"
+```
